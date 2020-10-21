@@ -306,32 +306,32 @@ Function InstallIrfanview {
 
 Function InstallSteam {
   Write-Output "Installing Steam"
-  choco install steam
+  choco install steam -y
 }
 
 Function InstallDiscord {
   Write-Output "Installing Discord"
-  choco install discord
+  choco install discord -y
 }
 
 Function InstallEpicGameLauncher {
   Write-Output "Installing Epic Game Launcher"
-  choco install epicgamelauncher
+  choco install epicgamelauncher -y
 }
 
 Function InstallBattleNet {
   Write-Output "Installing Battle.net"
-  choco install battle.net
+  choco install battle.net -y
 }
 
 Function InstallFirefox {
   Write-Output "Installing Firefox"
-  choco install firefox
+  choco install firefox -y
 }
 
 Function InstallChrome {
   Write-Output "Installing Google Chrome"
-  choco install googlechrome
+  choco install googlechrome -y
 }
 
 Function ChangeDefaultApps {
