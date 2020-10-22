@@ -36,7 +36,7 @@ $tweaks = @(
 	"InstallIrfanview",
 	"InstallSteam",
 	"InstallBattlenet"
-	"InstallEpicGameLauncher",
+	"InstallEpicGamesLauncher",
 	"InstallDiscord",
 	"InstallSlack",
   "InstallFirefox",
@@ -314,9 +314,9 @@ Function InstallDiscord {
   choco install discord -y
 }
 
-Function InstallEpicGameLauncher {
-  Write-Output "Installing Epic Game Launcher"
-  choco install epicgamelauncher -y
+Function InstallEpicGamesLauncher {
+  Write-Output "Installing Epic Games Launcher"
+  choco install epicgameslauncher -y
 }
 
 Function InstallBattleNet {
